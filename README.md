@@ -1,6 +1,8 @@
 # Perspective-API-testing
 
-Model Review and EDA:
+Here I am trying to understand how perspective API scores different comments for toxicity and potential bias in the model.
+
+Model Review and Analysis:
 For the thresholds with toxicity the score threshold is around 0.3 and above, but when removing the toxic label the score threshold drops to around 0.25 except for severe_toxic label which has the highest threshold of all lables (around 0.49).
 
 Hypothesis for testing the Perspective API: The API will score comments that include the mention of minorities (women,gays, latinos, other foreigners, religion, etc.) higher.
